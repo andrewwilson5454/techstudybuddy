@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<section id="home" class="page parallax-section">
+     <div class="page-overlay"></div>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 col-sm-12">
+                    <h2>{{ page.title }}</h2>
+               </div>
+          </div>
+     </div>
+</section>
+<section id="page">
+     <div class="container">
+          <div class="row">
+			<div class="col-md-offset-1 col-md-10 col-sm-12">
+				<div class="post-des">
+					{{ content }}
+					{% assign pinned_posts = site.vendors | where: "pinned", true %}
+					{% assign other_posts = site.vendors | where: "pinned", false %}
+					
+					{% for vendors in pinned_posts %} 
+						<div class="post-thumb">
+						{% if vendors.image %}
+							<div class="post-image">
+								<a href="{{ vendors.url }}">
+									<img src="{{ vendors.image }}" class="img-responsive" alt="{{ vendors.title }}">
+								</a>
+							</div>
+						{% endif %}
+						<div class="post-title">
+							<h3><a href="{{ vendors.url }}">{{ vendors.title }}</a></h3>
+						</div>
+						{% if vendors.description %}
+							<div class="post-des">
+								<p>{{ vendors.description }}</p>
+								<a href="{{ vendors.url }}" class="btn btn-default">Read Post</a>
+							</div>
+						{% endif %}
+						</div>
+					{% endfor %}
+					
+					{% assign other_sorted_posts = other_posts | sort: "weight" %}
+					{% for vendors in other_sorted_posts %}
+						<div class="post-thumb">
+						{% if vendors.image %}
+							<div class="post-image">
+								<a href="{{ vendors.url }}">
+									<img src="{{ vendors.image }}" class="img-responsive" alt="{{ vendors.title }}">
+								</a>
+							</div>
+						{% endif %}
+						<div class="post-title">
+							<h3><a href="{{ vendors.url }}">{{ vendors.title }}</a></h3>
+						</div>
+						{% if vendors.description %}
+						<div class="post-des">
+							<p>{{ vendors.description }}</p>
+							<a href="{{ vendors.url }}" class="btn btn-default">Read Post</a>
+						</div>
+						{% endif %}
+						</div>
+					{% endfor %}
+			    </div>
+			</div>
+          </div>
+     </div>
+</section>
+
+

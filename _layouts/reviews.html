@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section id="home" class="page parallax-section">
+     <div class="page-overlay"></div>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 col-sm-12">
+                    <h2>{{ page.title }}</h2>
+               </div>
+          </div>
+     </div>
+</section>
+<section id="page">
+     <div class="container">
+          <div class="row">
+			<div class="col-md-offset-1 col-md-10 col-sm-12">
+				<div class="post-des">
+					{{ content }}
+					{% assign sorted_posts = site.reviews | sort: "date" | reverse %}
+					{% for review in sorted_posts %}
+						<div class="post-thumb">
+						{% if review.image %}
+							<div class="post-image">
+								<a href="{{ review.url }}">
+									<img src="{{ review.image }}" class="img-responsive" alt="{{ review.title }}">
+								</a>
+							</div>
+						{% endif %}
+						<div class="post-title">
+							<h3><a href="{{ review.url }}">{{ review.title }}</a></h3>
+						</div>
+						{% if review.description %}
+						<div class="post-des">
+							<p>{{ review.description }}</p>
+							<a href="{{ review.url }}" class="btn btn-default">Read Post</a>
+						</div>
+						{% endif %}
+						</div>
+					{% endfor %}
+			    </div>
+			</div>
+          </div>
+     </div>
+</section>

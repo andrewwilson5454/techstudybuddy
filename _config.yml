@@ -1,0 +1,23 @@
+# Site settings
+url: http://techstudybuddy.com
+name: Tech Study Buddy
+title: Tech Study Buddy
+author: Andrew Wilson
+description: Tech Study Buddy is a personal site focused on breaking down the modern tech certification landscape so that it is easier to understand where to begin leveling up tech skills for aspiring students new to the industry and seasoned professionals alike
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+include:
+  - assets
+  - posts
+collections:
+    reviews:
+        output: true
+        permalink: /posts/reviews/:title/
+    posts:
+        output: true
+        permalink: /posts/blog/:title/
+    vendors:
+        output: true
+        permalink: /posts/vendors/:title/

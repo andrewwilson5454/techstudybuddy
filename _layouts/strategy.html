@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
+<section id="home" class="page parallax-section">
+     <div class="page-overlay"></div>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 col-sm-12">
+                    <h2>{{ page.title }}</h2>
+               </div>
+          </div>
+     </div>
+</section>
+<section id="page">
+     <div class="container">
+          <div class="row">
+			<div class="col-md-offset-1 col-md-10 col-sm-12">
+				<div class="post-des">
+					{{ content }}
+			    </div>
+			</div>
+          </div>
+     </div>
+</section>
+<section id="gallery">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+				<div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation1.png" class="image-popup">
+                                <img src="/assets/images/motivation1.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation2.png" class="image-popup">
+                                <img src="/assets/images/motivation2.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation3.png" class="image-popup">
+                                <img src="/assets/images/motivation3.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation4.png" class="image-popup">
+                                <img src="/assets/images/motivation4.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation5.png" class="image-popup">
+                                <img src="/assets/images/motivation5.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation6.png" class="image-popup">
+                                <img src="/assets/images/motivation6.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation7.png" class="image-popup">
+                                <img src="/assets/images/motivation7.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation8.png" class="image-popup">
+                                <img src="/assets/images/motivation8.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation9.png" class="image-popup">
+                                <img src="/assets/images/motivation9.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>
+                 <div class="col-md-6 col-sm-6">
+                      <div class="gallery-thumb">
+                           <a href="/assets/images/motivation10.png" class="image-popup">
+                                <img src="/assets/images/motivation10.png" class="img-responsive" alt="Gallery Image">
+                           </a>
+                      </div>
+                 </div>				 
+               </div>
+          </div>
+     </div>
+</section>
+<br>
+{% include footer.html %}
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+<script src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.parallax.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.magnific-popup.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/magnific-popup-options.js' | relative_url }}"></script>
+</body>
+</html>

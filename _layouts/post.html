@@ -1,0 +1,6 @@
+---
+layout: page
+---
+<p class="post-meta">By {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} • Posted <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> • Last updated <time datetime="{{ page.updated | date_to_xmlschema }}" itemprop="datePublished">{{ page.updated | date: "%b %-d, %Y" }}</time></p>
+<hr>
+{{ content }}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+	{% include header.html %}
+	{{ content }}
+	{% include footer.html %}
+	<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+	<script src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/app.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/jquery.parallax.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/jquery.magnific-popup.min.js' | relative_url }}"></script>
+	<script src="{{ '/assets/js/magnific-popup-options.js' | relative_url }}"></script>
+</body>
+</html>
