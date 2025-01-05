@@ -6,6 +6,8 @@ permalink: /posts/vendors/
 ### Tech Certification Vendors
 Hundreds of tech certification vendors develop and maintain thousands of tech certifications. It's overwhelming. I'll try to simplify things here.
 
+Click [**here**](#lists) to skip to the lists.
+
 ### What Exactly is a Certification Vendor?
 A certification vendor is simply any certifying body that issues certifications for a specific knowledge domain. This does not include training partners. This includes only the company or organization that has their name attached to the certification. Since this site only focuses on tech and some tech-adjacent certifications, assume I am referring to tech certifications if I don't explicitly state it.
 
@@ -31,3 +33,4 @@ So we have a lot of individual tech companies developing certifications for thei
 That is the point of this site: highlighting the tech certification vendors that I believe offer the best value while also documenting the rest in case some of us are interested in them as well.
 
 ---
+{: #lists}
