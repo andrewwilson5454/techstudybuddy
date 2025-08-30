@@ -1,5 +1,5 @@
 ---
-title: About
+title: About TSB and Me
 layout: page
 permalink: /posts/about/
 ---

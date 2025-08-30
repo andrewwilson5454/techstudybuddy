@@ -1,5 +1,5 @@
 ---
-title: Reviews
+title: Certification Reviews
 layout: reviews
 permalink: /posts/reviews/
 ---

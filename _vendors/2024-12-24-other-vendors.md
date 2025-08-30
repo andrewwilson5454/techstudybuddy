@@ -7,7 +7,7 @@ updated: 2025-1-2
 image: "/assets/images/other.png"
 description: "All of the other certification vendors that are either too expensive, restrictive, not fully established, and so on."
 categories: vendors
-weight: 2
+weight: 4
 pinned: false
 ---
 ### What Does This Mean, Exactly?

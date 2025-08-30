@@ -7,7 +7,7 @@ updated: 2025-1-2
 image: "/assets/images/recommended.png"
 description: "My personal list of the certification vendors that I believe offer the best value for the majority of tech professionals of all backgrounds and experience levels."
 categories: vendors
-weight: 1
+weight: 3
 pinned: false
 ---
 ### My Recommended List

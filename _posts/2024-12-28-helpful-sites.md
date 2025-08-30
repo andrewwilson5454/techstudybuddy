@@ -71,7 +71,7 @@ This is the coolest thing to me. If you want to become a DevOps engineer, be fam
 	<img src="/assets/images/devsecops_periodic_table.png" class="img-responsive" alt="Post Image">
 </div>
 
-### General Learning
+### Other Learning Platforms
 Website: [**edX**](https://edx.org/){:target="_blank"}
 
 Mostly focused on bringing university courses to the Internet, this is a good resource for learning computer science. I believe the focus is more on the theory and not as much on the practical application of computer programming. That being said, knowing theory is as foundational as it gets.
@@ -81,6 +81,10 @@ Website: [**Khan Academy**](https://www.khanacademy.org/computing)
 I've linked specifically the computing section of their site, but Khan Academy is great for just about anything. 
 
 Khan Academy is also entirely free, and is sustained by donations. Please donate if you can.
+
+Website: [**KodeKloud**](https://kodekloud.com/)
+
+KodeKloud specializes in teaching DevOps skills. It is highly regarded for its Terraform learning materials, providing a sandbox environment that allows for valuable hands-on experience. They also cover much, much more. Check them out if you are interested in honing your DevOps skillset.
 
 Website: [**LinkedIn Learning**](https://www.linkedin.com/learning/){:target="_blank"}
 
@@ -95,6 +99,10 @@ Website: [**Udemy**](https://udemy.com/){:target="_blank"}
 This is not about the platform but about the individual educators that use Udemy to host their materials. 
 
 I want to especially shout out Krista King for learning math and Stephane Maarek for learning AWS.
+
+Website: [**Whizlabs**](https://www.whizlabs.com/){:target="_blank"}
+
+I've not used this personally, but I've read great things about their platform!
 
 ### Expect More Later
 I plan on updating this page every time I come across another helpful learning platform or resource. If you have some recommendations, please reach out!
