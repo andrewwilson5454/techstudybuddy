@@ -104,50 +104,25 @@ It could be argued that these are also relatively niche. I don't believe that is
 	</a>
 </div> 
 <br>
-#### CloudBees
-CloudBees offers certifications for their own CI platform and for the Jenkins CI server. Jenkins is widely used across the industry. 
-
-[Link to website: **CloudBees**](https://www.cloudbees.com/cloudbees-university){:target="_blank"}
-
 #### Cloud Native Computing Foundation
 CNCF is a part of the Linux Foundation, and offers certifications for Kubernetes, Prometheus, Argo CD, and more. 
 
 [Link to website: **Cloud Native Computing Foundation**](https://www.cncf.io/training/certification/){:target="_blank"}
-
-#### Confluent
-Confluent was founded by the developers of Apache Kafka. They offer Kafka training and certifications for Kafka developers and administrators. 
-
-[Link to website: **Confluent**](https://www.confluent.io/certification/){:target="_blank"}
 
 #### GitLab
 An all-in-one CI/CD platform, GitLab is a mature and powerful platform that will continue to be vital to software engineering teams all over the world. Consider learning more about it!
 
 [Link to website: **GitLab**](https://university.gitlab.com/pages/certifications){:target="_blank"}
 
-#### Gradle 
-Learn about Gradle and Maven. These are build automation tools used primarily by developers, but there are several cases where folks other than developers could benefit from knowing how to use them. 
-
-[Link to website: **Gradle**](https://dpeuniversity.gradle.com/app){:target="_blank"}
-
 #### HashiCorp
 HashiCorp is most known for Terraform, but they also offer certifications for Vault and Consul. 
 
 [Link to website: **HashiCorp**](https://www.hashicorp.com/certification){:target="_blank"}
 
-#### JFrog
-JFrog's Artifactory is a tool used for artifact and package management, which is a CI/CD necessity. 
-
-[Link to website: **JFrog**](https://jfrog.com/certification/){:target="_blank"}
-
 #### Mirantis
 Mirantis acquired Docker Enterprise, and is the de facto certification vendor for Docker. There are not many things that have been more transformative to IT infrastructure than Docker in this millennium.
 
 [Link to website: **Mirantis**](https://training.mirantis.com/certification/dca-certification-exam/){:target="_blank"}
-
-#### Puppet
-A configuration management and infrastructure-as-code tool. Even if an employer does not use Puppet in their environments, they likely will want someone who does as configuration management skills will transcend individual tools.
-
-[Link to website: **Puppet**](https://www.puppet.com/learning-training/certification){:target="_blank"}
 
 ---
 
