@@ -1,11 +1,11 @@
 ---
 layout: post
-title: GitLab Git Certified Associate
+title: GitLab Certified Git Associate
 author: Andrew Wilson
 date: 2025-8-24
 updated: 2025-8-24
-image: "/assets/images/gitlab_git_associate.png"
-description: "The GitLab Git Certified Associate is the perfect entry point for anyone wanting to add Git skills to their toolkit. Abundantly accessible and able to be completed within a week by most!"
+image: "/assets/images/gitassociate.png"
+description: "The GitLab Certified Git Associate is the perfect entry point for anyone wanting to add Git skills to their toolkit. Abundantly accessible and able to be completed within a week by most!"
 categories: review
 ---
 ### Overview
