@@ -32,3 +32,4 @@ jobs:
         git add .
         git commit -m "Deploy built site from ${{ github.sha }}"
         git push --force origin built-site
+
