@@ -27,31 +27,6 @@ I'm not going to say too much about each one. Check them out and see for yoursel
 
 ---
 
-### Platforms
-The big three in public cloud computing plus Cisco, the largest computer networking company in the world. There are other players in this field, but no others are as dominant as the ones listed here.
-
-#### Amazon
-AWS is the biggest, most innovative public cloud provider at the moment. AWS began out of necessity as Amazon's ecommerce business was massively expanding. The tech stack at that time simply could not handle the scaling requirements that Amazon required. AWS began with SQS for message queuing and S3 for object storage. Today, there is a service for just about anything.
-
-[Link to website: **Amazon**](https://aws.amazon.com/certification/){:target="_blank"}
-
-#### Cisco
-The undisputed king of networking. The network is at the heart of everything.
-
-[Link to website: **Cisco**](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html){:target="_blank"}
-
-#### Google
-While Google is firmly in third place behind AWS and Azure in public cloud market share, there are still many businesses and organizations that rely on GCP. 
-
-[Link to website: **Google**](https://cloud.google.com/learn/certification){:target="_blank"}
-
-#### Microsoft
-Microsoft's certification offerings have changed significantly in the past 15 years. The MCSA and MCSE were some of the most popular tech certifications at one time, but they were phased out so Microsoft could focus more on Azure. 
-
-[Link to website: **Microsoft**](https://learn.microsoft.com/en-us/credentials/){:target="_blank"}
-
----
-
 ### Cybersecurity
 Mostly vendor-agnostic and highly respected. There are many options to choose from when it comes to getting certified in cybersecurity, but I think these are at the top.
 
@@ -92,6 +67,11 @@ CNCF is a part of the Linux Foundation, and offers certifications for Kubernetes
 
 [Link to website: **Cloud Native Computing Foundation**](https://www.cncf.io/training/certification/){:target="_blank"}
 
+#### GitLab
+GitLab offers several certifications related to their comprehensive CI/CD platform. Even if an organization does not use GitLab, they are still likely to want someone with Git skills.
+
+[Link to website: **GitLab**](https://university.gitlab.com/pages/certifications){:target="_blank"}
+
 #### HashiCorp
 HashiCorp is most known for Terraform, but they also offer certifications for Vault and Consul. 
 
@@ -101,3 +81,28 @@ HashiCorp is most known for Terraform, but they also offer certifications for Va
 Mirantis acquired Docker Enterprise, and is the de facto certification vendor for Docker. There are not many things that have been more transformative to IT infrastructure than Docker in this millennium.
 
 [Link to website: **Mirantis**](https://training.mirantis.com/certification/dca-certification-exam/){:target="_blank"}
+
+---
+
+### Platforms
+The big three in public cloud computing plus Cisco, the largest computer networking company in the world. There are other players in this field, but no others are as dominant as the ones listed here.
+
+#### Amazon
+AWS is the biggest, most innovative public cloud provider at the moment. AWS began out of necessity as Amazon's ecommerce business was massively expanding. The tech stack at that time simply could not handle the scaling requirements that Amazon required. AWS began with SQS for message queuing and S3 for object storage. Today, there is a service for just about anything.
+
+[Link to website: **Amazon**](https://aws.amazon.com/certification/){:target="_blank"}
+
+#### Cisco
+The undisputed king of networking. The network is at the heart of everything.
+
+[Link to website: **Cisco**](https://www.cisco.com/c/en/us/training-events/training-certifications/certifications.html){:target="_blank"}
+
+#### Google
+While Google is firmly in third place behind AWS and Azure in public cloud market share, there are still many businesses and organizations that rely on GCP. 
+
+[Link to website: **Google**](https://cloud.google.com/learn/certification){:target="_blank"}
+
+#### Microsoft
+Microsoft's certification offerings have changed significantly in the past 15 years. The MCSA and MCSE were some of the most popular tech certifications at one time, but they were phased out so Microsoft could focus more on Azure. 
+
+[Link to website: **Microsoft**](https://learn.microsoft.com/en-us/credentials/){:target="_blank"}
