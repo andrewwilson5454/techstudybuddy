@@ -1,10 +1,15 @@
 name: TSB Build
 
+# lines 6 through 27 are unchanged from the default Jekyll site build workflow that GitHub Actions maintains
+# kicks off this workflow with every commit or merge to master
+
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+
+# defines the Docker image to be used as the runner, then builds the site within that container
 
 jobs:
   build:
@@ -21,6 +26,9 @@ jobs:
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
+# creates a new branch within the repository called built-site and pushes the output of the jekyll build command to it using the built-in GitHub token
+# this is not necessary for deploying to S3, but does provide a copy of what will be pushed to S3 later on and could help with any troubleshooting
+
     - name: Deploy to built-site branch
       run: |
         cd _site
@@ -32,6 +40,8 @@ jobs:
         git add .
         git commit -m "Deploy built site from ${{ github.sha }}"
         git push --force origin built-site
+
+# sets up the access to my AWS account hosting the site
         
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v3
@@ -39,10 +49,15 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
+
+# since this is a static site, it can be hosted with S3
+# this pushes the output of the jekyll build command that is currently still on the runner to my S3 bucket
       
     - name: Sync site to S3
       run: |
         aws s3 sync _site s3://techstudybuddy-public --delete
+
+# clear the CDN cache so the changes go live immediately
 
     - name: Invalidate CloudFront cache
       run: |
