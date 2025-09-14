@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 48px;
   padding-bottom: 8px;
   margin-bottom: 0px;
   font-weight: bold;
@@ -133,7 +133,7 @@ a:hover, a:active, a:focus {
 }
 
 .page {
-  height: 20vh;
+  height: 10vh;
 }
 
 .home-overlay {
@@ -259,13 +259,13 @@ a:hover, a:active, a:focus {
 .home {
   background: url('../images/background.jpg') no-repeat;
   background-size: contain;
-  height: 80vh;
+  height: 90vh;
 }
 
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   top: 0;
   left: 0;
 }
