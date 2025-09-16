@@ -10,7 +10,9 @@ categories: review
 ---
 ### TL;DR
 Prep time: Two days
+
 Recommended resources: Only their official training course
+
 Exam difficulty: Very easy and straightforward multiple choice exam
 
 ### Overview

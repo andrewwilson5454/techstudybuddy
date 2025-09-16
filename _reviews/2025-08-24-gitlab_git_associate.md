@@ -10,7 +10,9 @@ categories: review
 ---
 ### TL;DR
 Prep time: One week
+
 Recommended resources: GitLab University only
+
 Exam difficulty: Both the written and practical exams are easy with proper preparation
 
 ### Overview

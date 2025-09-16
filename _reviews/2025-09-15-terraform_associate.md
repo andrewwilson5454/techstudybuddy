@@ -10,7 +10,9 @@ categories: review
 ---
 ### TL;DR
 Prep time: I personally spent three weeks and would recommend around a month for most cases.
+
 Recommended resources: HashiCorp's [**Learning Path - Terraform Associate (003)**](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003){:target="_blank"}, KodeKloud's Terraform material, and Bryan Krausen's practice exams [**on Udemy.**](https://www.udemy.com/course/terraform-associate-practice-exam){:target="_blank"}
+
 Exam difficulty: Not bad with proper preparation. Questions are multiple choice/multiple response only.
 
 ### Overview
