@@ -10,7 +10,7 @@ I knew a bit about certifications before making my 2024 New Year's resolution fo
 
 That's where Tech Study Buddy comes in. I've spent days sorting through over a hundred certification vendors. I've compared the applicable costs, potential restrictions, legitimate controversies, and market trends to come up with a relatively definitive list of the best certification vendors available to us right now.
 
-At a time when information technology has never been more relevant, it's also never been more important for us to develop our tech skills. This site will hopefully provide a meaningful roadmap to help you along with the way.
+At a time when information technology has never been more relevant, it's also never been more important for us to develop our tech skills. This site will hopefully provide a meaningful guide to help you along the way.
 
 ### About Andrew
 I am a tech professional who has been in the industry since graduating from the University of North Georgia in December 2016 with a B.S. in Computer Information Systems. I began my career in the spring of 2017 at a data center in the Atlanta metro area.
