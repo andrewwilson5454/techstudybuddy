@@ -3,7 +3,7 @@ title: Recommended Vendor List
 layout: post
 author: Andrew Wilson
 date: 2024-12-24
-updated: 2025-09-10
+updated: 2026-01-21
 image: "/assets/images/recommended.png"
 description: "My personal list of the certification vendors that I believe offer the best value for the majority of tech professionals of all backgrounds and experience levels."
 categories: vendors
@@ -35,6 +35,11 @@ There are many companies that require an active Security+ from CompTIA before ad
 
 [Link to website: **CompTIA**](https://www.comptia.org/certifications){:target="_blank"}
 
+#### GIAC
+Training for GIAC certification is not cheap, but there are 3rd party options for learning what is needed to pass the exam. GIAC is a part of the for-profit SANS Institute, which might explain why their training is so overpriced. Regardless, they're much more legitimate than other for-profit vendors that charge slightly less. 
+
+[Link to website: **GIAC**](https://www.giac.org/get-certified/){:target="_blank"}
+
 #### ISACA
 ISACA is a well-established cybersecurity certification vendor. The CISM and CISA are some of their more well-known certifications. 
 
@@ -63,7 +68,7 @@ It could be argued that these are also relatively niche. I don't believe that is
 </div> 
 <br>
 #### Cloud Native Computing Foundation
-CNCF is a part of the Linux Foundation, and offers certifications for Kubernetes, Prometheus, Argo CD, and more. 
+CNCF is a part of the Linux Foundation, and offers certifications for Kubernetes, Prometheus, Argo CD, and more. Check out the [**Kubestronaut program**](https://www.cncf.io/training/kubestronaut/){:target="_blank"} and earn a sleek jacket for holding all of the Kubernetes certifications!
 
 [Link to website: **Cloud Native Computing Foundation**](https://www.cncf.io/training/certification/){:target="_blank"}
 
@@ -101,6 +106,11 @@ The undisputed king of networking. The network is at the heart of everything.
 While Google is firmly in third place behind AWS and Azure in public cloud market share, there are still many businesses and organizations that rely on GCP. 
 
 [Link to website: **Google**](https://cloud.google.com/learn/certification){:target="_blank"}
+
+#### Linux Professional Institute
+Vendor-neutral way to prove your advanced Linux skills. If you only are considering one Linux certification, it might be better to just stick with CompTIA's Linux+. The offerings from LPI will be more challenging, which is usually a good thing!
+
+[Link to website: **LPI**](https://www.lpi.org/our-certifications/summary-of-lpi-certifications/){:target="_blank"}
 
 #### Microsoft
 Microsoft's certification offerings have changed significantly in the past 15 years. The MCSA and MCSE were some of the most popular tech certifications at one time, but they were phased out so Microsoft could focus more on Azure. 
